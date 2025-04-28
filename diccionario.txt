@@ -1,0 +1,3 @@
+char|caracter|sirve para declarar variables que almacenaran un caracter de texto solamente, se usa en lugar de string porque solo ser  un caracter
+if|si|condicion hermano xd
+andy|andis|pro papu
