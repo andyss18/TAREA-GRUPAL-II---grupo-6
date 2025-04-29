@@ -59,4 +59,8 @@ volatile|volátil|indica que una variable puede cambiar en cualquier momento, pre
 while|mientras|bucle que ejecuta un bloque de código mientras se cumpla una condición.
 char|caracter|sirve para declarar variables que almacenaran un caracter de texto solamente, se usa en lugar de string porque solo ser  un caracter
 if|si|estructura de control que evalúa una condición lógica; si se cumple, ejecuta el bloque de código correspondiente.
-
+string|cadena|es la defincion de cualquier cosa
+main|principal|Función principal donde comienza la ejecución del programa
+endl|finalizar|es finalizacion de linea
+{|inicio|es el inicio de la condicion 
+}|fin|es el final de la conidicon
