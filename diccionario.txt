@@ -1,3 +1,62 @@
+asm|ensamblador|permite insertar código ensamblador directamente en un programa C++.
+auto|automático|deduce automáticamente el tipo de una variable a partir de su valor inicial.
+bool|booleano|representa un valor verdadero o falso.
+break|romper|termina la ejecución de un ciclo o switch.
+case|caso|define una condición dentro de una instrucción switch.
+catch|capturar|maneja excepciones lanzadas con throw.
+class|clase|define una estructura de datos con atributos y métodos en programación orientada a objetos.
+const|constante|indica que un valor no puede ser modificado después de su inicialización.
+const_cast|conversión_constante|convierte tipos eliminando la cualidad de constante de una variable.
+continue|continuar|salta a la siguiente iteración de un ciclo.
+default|defecto|define una acción por defecto en un switch si no se cumple ningún case.
+delete|eliminar|libera memoria previamente asignada con new.
+do|hacer|estructura de control que ejecuta un bloque de código al menos una vez antes de verificar una condición.
+double|doble|tipo de dato de punto flotante de doble precisión.
+dynamic_cast|conversión_dinámica|convierte punteros o referencias entre clases relacionadas por herencia.
+else|sino|bloque que se ejecuta si la condición del if no se cumple.
+enum|enumeración|define un conjunto de constantes integrales con nombre.
+explicit|explícito|evita conversiones implícitas en constructores de una sola entrada.
+extern|externo|indica que una variable o función está definida en otro archivo.
+false|falso|valor booleano que representa lo contrario a verdadero.
+float|flotante|tipo de dato para representar números reales con punto decimal.
+for|para|bucle con control explícito de inicio, condición y actualización.
+friend|amigo|permite a una función o clase acceder a miembros privados de otra clase.
+goto|ir_a|salta a otra parte del código; su uso es generalmente desaconsejado.
+inline|en_línea|sugiere al compilador que inserte el código de una función directamente donde se llama.
+int|entero|tipo de dato para números enteros.
+long|largo|tipo de dato entero de mayor tamaño que int.
+mutable|mutable|permite modificar un miembro de clase incluso si el objeto es const.
+namespace|espacio_de_nombres|organiza código en grupos para evitar colisiones de nombres.
+new|nuevo|asigna memoria dinámicamente para una variable u objeto.
+operator|operador|permite definir o sobrecargar operadores para clases.
+private|privado|nivel de acceso que restringe el uso de miembros a la propia clase.
+protected|protegido|nivel de acceso que permite uso desde la clase y sus derivadas.
+public|público|nivel de acceso abierto a cualquier parte del programa.
+register|registro|sugiere al compilador almacenar una variable en un registro del CPU.
+reinterpret_cast|conversión_reinterpretada|convierte un tipo en otro sin cambiar su representación de bits.
+return|retornar|devuelve un valor desde una función.
+short|corto|tipo de dato entero de menor tamaño que int.
+signed|con_signo|especifica que un tipo numérico puede ser positivo o negativo.
+sizeof|tamaño_de|devuelve el tamaño en bytes de una variable o tipo de dato.
+static|estático|mantiene el valor de una variable entre llamadas o restringe el ámbito a un archivo.
+static_cast|conversión_estática|realiza conversiones de tipo en tiempo de compilación.
+struct|estructura|agrupa múltiples variables bajo un mismo tipo.
+switch|selección|permite ejecutar diferentes bloques de código según el valor de una variable.
+template|plantilla|permite definir funciones o clases genéricas.
+this|esto|puntero implícito al objeto actual dentro de una clase.
+throw|lanzar|lanza una excepción para ser manejada por catch.
+true|verdadero|valor booleano que representa afirmación.
+try|intentar|bloque que puede lanzar una excepción.
+typedef|definir_tipo|define un alias para un tipo de dato.
+typeid|identificador_tipo|proporciona información sobre el tipo de una variable u objeto.
+typename|nombre_de_tipo|declara un identificador como un tipo en plantillas.
+union|unión|estructura que comparte el mismo espacio de memoria entre sus miembros.
+unsigned|sin_signo|especifica que un tipo numérico solo representa valores positivos.
+using|usando|introduce nombres de espacios de nombres o alias de tipos.
+virtual|virtual|permite el uso de polimorfismo en funciones de clases base.
+void|vacío|indica ausencia de valor de retorno o de parámetros.
+volatile|volátil|indica que una variable puede cambiar en cualquier momento, previniendo optimizaciones del compilador.
+while|mientras|bucle que ejecuta un bloque de código mientras se cumpla una condición.
 char|caracter|sirve para declarar variables que almacenaran un caracter de texto solamente, se usa en lugar de string porque solo ser  un caracter
-if|si|condicion hermano xd
-andy|andis|pro papu
+if|si|estructura de control que evalúa una condición lógica; si se cumple, ejecuta el bloque de código correspondiente.
+
