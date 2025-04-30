@@ -82,5 +82,49 @@ int main() {
 
                 palabraActual.clear();
             }
+if (c == '{') {
+              if (!ultimaEstructura.empty() && !esFunc) {
+               nuevaLinea << "\ninicio " << ultimaEstructura << "\n";
+               llaveAbierta = true;
+               ultimaEstructura.clear();
+            } else {
+               nuevaLinea << "{\n";
+            }
+            } else if (c == '}') {
+                if (!estructuras.empty() && !esFunc) {
+                    nuevaLinea << "\nfin " << estructuras.top() << "\n";
+                    estructuras.pop();
+                } else {
+                    nuevaLinea << "}\n";
+                }
+            } else if (!isspace(c)) {
+                nuevaLinea << c;
+            } else {
+                nuevaLinea << " ";
+            }
+            } else {
+            palabraActual += c;
+        }
+    }
 
+    if (!palabraActual.empty()) {
+        string limpio = palabraActual;
+        limpio.erase(remove_if(limpio.begin(), limpio.end(), ::ispunct), limpio.end());
+
+        if (diccionario.count(limpio)) {
+            nuevaLinea << diccionario[limpio];
+            if (limpio == "if" || limpio == "else" || limpio == "while" || limpio == "for" || limpio == "switch") {
+                estructuras.push(diccionario[limpio]);
+            }
+        } else {
+            nuevaLinea << palabraActual;
+        }
+    }
+
+    cout << nuevaLinea.str();
+    if (!llaveAbierta)
+        cout << endl;
+  }
+  return 0;
+}
 
